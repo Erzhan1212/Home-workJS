@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#fon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-left: 35%;
+  margin-top: 50px;
+  width: 650px;
+
+  padding: 20px;
+  background-color: rgb(117, 200, 255);
+}
+#windows_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 590px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+#form {
+  display: flex;
+  gap: 10px;
+}
+
+.header_h {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(7, 3, 249);
+}
+#input {
+  width: 350px;
+  height: 40px;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  opacity: 0.5;
+  border: 2px solid rgb(7, 3, 249);
+}
+#input_btn {
+  height: 40px;
+  width: 70px;
+  border: 1px solid rgba(113, 3, 3, 0.332);
+  background-color: rgb(216, 4, 4);
+  border-radius: 100px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.list_item {
+  display: flex;
+  margin-top: 50px;
+  width: 510px;
+  height: 50px;
+  background-color: rgb(9, 155, 253);
+  border: 3px solid rgb(9, 155, 253);
+  .list_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    width: 80px;
+    height: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.12rem;
+    left: 80%;
+    background-color: rgb(250, 77, 77);
+    border: none;
+    border-radius: 100px;
+  }
+}
