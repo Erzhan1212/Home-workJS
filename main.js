@@ -39,29 +39,29 @@
 
 //!Task-3
 
-// const user = {
-//   name: "admin",
-//   email: "a",
-//   age: 3,
-//   password: "121",
-// };
-// let getUser = prompt("enter email..");
-// let sum = "5";
-// //  user.sum="5"
-// if (getUser === user.email) {
-//   let pas = prompt("enter password..");
-//   if (pas !== user.password) {
-//     alert("Неверный пароль");
-//   } else if (getUser === user.email && pas === user.password) {
-//     let num = prompt("2+3");
-//     if (num === sum)  {
-//       alert("Верно! Ваша премия = ${user.sum}");
-//     }
-//   }
-//   if (num !== sum) {
-//     alert("Неправильно");
-//   }
-// } else {
-//   alert("Извините, такого email не существует");
-// }
-// console.log(user);
+const user = {
+  name: "admin",
+  email: "a",
+  age: 3,
+  password: "121",
+};
+let getUser = prompt("enter email..");
+let sum = 5;
+//  user.sum="5"
+if (getUser === user.email) {
+  let pas = prompt("enter password..");
+  if (pas !== user.password) {
+    alert("Неверный пароль");
+  } else if (getUser === user.email && pas === user.password) {
+    let num = +prompt("2+3");
+    if (num === sum) {
+      alert("Верно! Ваша премия = ${user.sum}");
+      user.sum = 5;
+    }
+  } else if (num !== sum) {
+    alert("Неправильно");
+  }
+} else {
+  alert("Извините, такого email не существует");
+}
+console.log(user);
